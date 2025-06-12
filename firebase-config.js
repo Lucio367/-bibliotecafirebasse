@@ -2,14 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
  const firebaseConfig = {
-    apiKey: "AIzaSyBTU",
-    authDomain: "bdnosql-de619.firebaseapp.com",
-    projectId: "b19",
-    storageBucket: "bdnoapp",
-    messagingSenderId: "519",
-    appId: "1:5193611",
-    measurementId: "G0"
-  };
+  apiKey: "AIzaSyC6mIdHmcmjVjYcLKPQ8P4g5uZ4PLqppPs",
+  authDomain: "bdnosql-32880.firebaseapp.com",
+  projectId: "bdnosql-32880",
+  storageBucket: "bdnosql-32880.firebasestorage.app",
+  messagingSenderId: "656244186956",
+  appId: "1:656244186956:web:f38e1e50cf8f79a74fb9e9"
+};
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
